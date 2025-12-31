@@ -32,7 +32,7 @@ $(document).ready(function () {
                 return;
             }
         }
-        // $(this).attr("disabled", "disabled");
+        $(this).attr("disabled", "disabled");
         $("#root-background img").animate({
             top: "+=240px",
             opacity: 0
@@ -183,4 +183,5 @@ $(document).ready(function () {
             }, 3500);
         }, 1600);
     });
+
 });
