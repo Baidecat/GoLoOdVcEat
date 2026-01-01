@@ -573,3 +573,10 @@ video {
     }
 
 }
+
+@media (max-width: 768px) {
+  .Pag {
+    overflow: auto;
+  }
+}
+
