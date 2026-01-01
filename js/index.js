@@ -74,7 +74,10 @@ $(document).ready(function () {
                     $("#Pag3 button").addClass("showclass");
                 }
             }, 1300);
+            //偷偷加载视频
+            $("#root-background").append('<video src="img/fireWork.mp4" muted autoplay style="opacity: 0"></video>');
         } else if (Pagimg == 6) {
+            $("#root-background video").remove();
             document.getElementById("music").pause();
             $("#musicBox").css("right", "-100px");
             var textnum = 0;
@@ -183,5 +186,4 @@ $(document).ready(function () {
             }, 3500);
         }, 1600);
     });
-
 });
