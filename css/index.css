@@ -578,15 +578,24 @@ video {
     overflow: auto;
   }
   .Pag h1 {
-    font-size: 76px !important;
+    font-size: 64px !important;
   }
   .Pag h2 {
     font-size: 32px !important;
+  }
+  .Pag h3 {
+    font-size: 28px !important;
   }
   .Pag li {
     font-size: 22px !important;
   }
   .Pag p {
     font-size: 25px !important;
+  }
+  .Pag span {
+    font-size: 28px !important;
+  }
+  .Pag ul {
+    width: 90vw;
   }
 }
